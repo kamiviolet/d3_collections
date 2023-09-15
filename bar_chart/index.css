@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Arial";
+}
+
+#title {
+  text-align: center;
+}
+
+.bar:hover {
+  fill: darkblue;
+}
+
+#tooltip {
+  position: absolute;
+  background: lightgray;
+  box-shadow: 1px 1px 1px lightgray;
+  padding: 0.75em;
+}
